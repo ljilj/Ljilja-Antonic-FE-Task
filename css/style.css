@@ -129,6 +129,77 @@ h4 {
   font-size: 1.0625em;
 }
 
+/*** Header ***/
+.c-header-section {
+  height: 91px;
+}
+@media (max-width: 1400px) {
+  .c-header-section {
+    height: 200px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .c-nav__header {
+    flex-direction: column;
+  }
+}
+
+.c-nav {
+  margin: 2.1rem 0;
+}
+@media (max-width: 1400px) {
+  .c-nav {
+    justify-content: space-between;
+  }
+}
+.c-nav .c-nav__logo {
+  margin: 5px 112px 0 0;
+}
+@media (max-width: 1400px) {
+  .c-nav .c-nav__logo {
+    margin-top: 60px;
+  }
+}
+.c-nav .c-nav__links a {
+  margin-right: 50px;
+  padding: 2.05rem 0;
+}
+.c-nav .c-nav__links a:last-child {
+  margin-right: 0;
+}
+.c-nav .c-nav__links a:hover {
+  color: #697ddf;
+}
+
+@media (max-width: 1400px) {
+  .c-header__icons {
+    justify-content: flex-end;
+    margin-top: -60px;
+  }
+}
+.c-header__icons .c-header-icons__group {
+  margin: 1.8rem 0;
+}
+.c-header__icons .c-header-icons__group svg {
+  margin-right: 30px;
+}
+.c-header__icons .c-header-icons__group .c-user-icon {
+  margin-right: 10px;
+  background-color: var(--color-purple);
+  padding: 11px;
+  border-radius: 50%;
+}
+.c-header__icons .c-menu-icon {
+  margin: 2.5rem 3.125rem 0 0;
+  width: 27px;
+  height: 15px;
+}
+.c-header__icons button {
+  font-size: 1.125rem;
+  height: 91px;
+}
+
 .icon {
   display: inline-block;
   fill: currentColor;
